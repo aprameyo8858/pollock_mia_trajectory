@@ -13,7 +13,7 @@ from loss_traces.data_processing.data_processing import (
     get_num_classes,
 )
 from loss_traces.models.model import load_model
-from loss_traces.trainer import Trainer
+from loss_traces.trainer_new import Trainer
 
 
 def parse_input():
